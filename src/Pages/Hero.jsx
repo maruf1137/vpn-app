@@ -1,4 +1,4 @@
-function Hero({ title = "", subtitle = "", btns = "true" }) {
+function Hero({ btns = "true" }) {
   return (
     <div>
       {/* Hero area  */}

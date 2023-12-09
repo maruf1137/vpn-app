@@ -269,6 +269,17 @@
   .wrapper {
     display: block;
   }
+
+  .cards .card {
+    padding: 100px 20px !important;
+    img {
+      transform: scale(1.5);
+    }
+
+    .title-area {
+      gap: 50px !important;
+    }
+  }
 }
 
 .settings-page {
