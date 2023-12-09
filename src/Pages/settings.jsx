@@ -11,9 +11,10 @@ const Settings = () => {
           <div className="card">
             <div className="title-area d-flex">
               <div className="iconbox">
-                <svg className="icon">
-                  <use xlinkHref="/public/icons.svg#icon-locked"></use>
-                </svg>
+                {/* <svg className="icon">
+                  <use xlinkHref="/icons.svg#icon-locked"></use>
+                </svg> */}
+                <img src="/icons/lock-2.png" alt="" />
               </div>
               <h3 className="card__heading">Reset Password</h3>
             </div>
@@ -32,9 +33,10 @@ const Settings = () => {
               <div className="btns d-flex justify-content-end gap-2 mt-5">
                 <button className="btn btn-primary d-flex align-items-center gap-2">
                   2FA
-                  <svg className="icon">
-                    <use xlinkHref="/public/icons.svg#icon-export"></use>
-                  </svg>
+                  {/* <svg className="icon">
+                    <use xlinkHref="/icons.svg#icon-export"></use>
+                  </svg> */}
+                  <img src="/icons/redirect.png" alt="" />
                 </button>
                 <button className="btn btn-primary">Reset</button>
               </div>
@@ -43,14 +45,15 @@ const Settings = () => {
           <div className="card">
             <div className="title-area d-flex">
               <div className="iconbox">
-                <svg className="icon">
-                  <use xlinkHref="/public/icons.svg#icon-locked"></use>
-                </svg>
+                {/* <svg className="icon">
+                  <use xlinkHref="/icons.svg#icon-locked"></use>
+                </svg> */}
+                <img src="/icons/lock.png" alt="" />
               </div>
               <h3 className="card__heading">Two-Factor Authentication</h3>
             </div>
             <div className="d-flex flex-column align-items-center gap-3">
-              <img src="/public/QR.png" alt="" className="qr-img mt-4" />
+              <img src="/QR.png" alt="" className="qr-img mt-4" />
               <p className="text text-white">Sample Code</p>
               <p className="text">Sample Code</p>
             </div>

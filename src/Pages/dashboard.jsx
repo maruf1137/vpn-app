@@ -12,9 +12,10 @@ const Dashboard = ({ sidebar, setSidebar }) => {
             <div className="card">
               <div className="title-area d-flex">
                 <div className="iconbox">
-                  <svg className="icon">
-                    <use xlinkHref="/public/icons.svg#icon-local_grocery_store"></use>
-                  </svg>
+                  {/* <svg className="icon">
+                    <use xlinkHref="/icons.svg#icon-local_grocery_store"></use>
+                  </svg> */}
+                  <img src="/icons/generate-img.png" alt="" />
                 </div>
                 <h3 className="card__heading">Generate IP</h3>
               </div>
@@ -35,9 +36,10 @@ const Dashboard = ({ sidebar, setSidebar }) => {
             <div className="card">
               <div className="title-area d-flex mb-4">
                 <div className="iconbox">
-                  <svg className="icon">
-                    <use xlinkHref="/public/icons.svg#icon-history"></use>
-                  </svg>
+                  {/* <svg className="icon">
+                    <use xlinkHref="/icons.svg#icon-history"></use>
+                  </svg> */}
+                  <img src="/icons/prev-ip.png" alt="" />
                 </div>
                 <h3 className="card__heading">Previous IP Adresses</h3>
               </div>
@@ -74,9 +76,10 @@ const Dashboard = ({ sidebar, setSidebar }) => {
             <div className="card">
               <div className="title-area d-flex mb-3">
                 <div className="iconbox">
-                  <svg className="icon">
-                    <use xlinkHref="/public/icons.svg#icon-news"></use>
-                  </svg>
+                  {/* <svg className="icon">
+                    <use xlinkHref="/icons.svg#icon-news"></use>
+                  </svg> */}
+                  <img src="/icons/news-2.png" alt="" />
                 </div>
                 <h3 className="card__heading">News</h3>
               </div>
@@ -92,9 +95,10 @@ const Dashboard = ({ sidebar, setSidebar }) => {
             <div className="card">
               <div className="title-area d-flex">
                 <div className="iconbox">
-                  <svg className="icon">
-                    <use xlinkHref="/public/icons.svg#icon-moneybag"></use>
-                  </svg>
+                  {/* <svg className="icon">
+                    <use xlinkHref="/icons.svg#icon-moneybag"></use>
+                  </svg> */}
+                  <img src="/icons/balence.png" alt="" />
                 </div>
                 <h3 className="card__heading">Balence</h3>
               </div>
@@ -107,9 +111,10 @@ const Dashboard = ({ sidebar, setSidebar }) => {
             <div className="card">
               <div className="title-area d-flex mb-3">
                 <div className="iconbox">
-                  <svg className="icon">
-                    <use xlinkHref="/public/icons.svg#icon-local_grocery_store"></use>
-                  </svg>
+                  {/* <svg className="icon">
+                    <use xlinkHref="/icons.svg#icon-local_grocery_store"></use>
+                  </svg> */}
+                  <img src="/icons/status.png" alt="" />
                 </div>
                 <h3 className="card__heading">Status</h3>
               </div>
@@ -138,9 +143,10 @@ const Dashboard = ({ sidebar, setSidebar }) => {
             <div className="card">
               <div className="title-area d-flex">
                 <div className="iconbox">
-                  <svg className="icon">
-                    <use xlinkHref="/public/icons.svg#icon-locked"></use>
-                  </svg>
+                  {/* <svg className="icon">
+                    <use xlinkHref="/icons.svg#icon-locked"></use>
+                  </svg> */}
+                  <img src="/icons/lock.png" alt="" />
                 </div>
                 <h3 className="card__heading">Request Password</h3>
               </div>

@@ -1,5 +1,6 @@
 .dashboard {
-  background-color: #000000;
+  // background-color: #000000;
+  background-image: url("/dashboard-bg.png");
   display: grid;
   grid-template-columns: 243px 1fr;
   min-height: 100vh;
@@ -53,12 +54,27 @@
         fill: currentColor;
         transition: all 0.1s;
       }
+
+      img {
+        height: 30px;
+        width: 30px;
+      }
+      .icon2 {
+        display: none;
+      }
     }
 
     &__link.active,
     &__link:hover {
       background-color: #3381f1;
       color: #fff;
+
+      .icon1 {
+        display: none;
+      }
+      .icon2 {
+        display: block;
+      }
     }
 
     .bottom-area {

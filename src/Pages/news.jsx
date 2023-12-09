@@ -11,9 +11,10 @@ const News = () => {
           <div className="card">
             <div className="title-area d-flex">
               <div className="iconbox">
-                <svg className="icon">
-                  <use xlinkHref="/public/icons.svg#icon-dollar"></use>
-                </svg>
+                {/* <svg className="icon">
+                  <use xlinkHref="/icons.svg#icon-dollar"></use>
+                </svg> */}
+                <img src="/icons/generate-img.png" alt="" />
               </div>
               <h3 className="card__heading">Generate IP</h3>
             </div>

@@ -5,7 +5,7 @@ const Login = () => {
     <div className="login">
       <div className="login__wrapper d-flex flex-column d-lg-grid h-100">
         <div className="login__content d-flex flex-column align-items-center">
-          <img src="/public/rokect.png" alt="" className="logo" />
+          <img src="/rokect.png" alt="" className="logo" />
           <div className="container HeroArea">
             <h1 className="text-light text-center ">
               Step into the world
@@ -25,7 +25,7 @@ const Login = () => {
         </div>
         <form className="login__form">
           <div className="title-area d-flex align-items-center gap-3 mb-4">
-            <img src="/public/login-icon.png" alt="" />
+            <img src="/login-icon.png" alt="" />
             <h3 className="text-white">Login</h3>
           </div>
           <input type="email" name="email" placeholder="Email" />

@@ -23,14 +23,11 @@
   width: 100% !important;
   height: auto;
   position: relative;
-  
-
-
 }
 .HomePageBG:after {
   content: "";
   position: absolute;
-  background: url(../public/sideBGHome.png);
+  background: url("../sideBGHome.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -39,7 +36,6 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
-
 }
 .DownBG {
   padding-bottom: 250px;
@@ -87,7 +83,6 @@
   margin: auto;
 }
 
-
 .SideBarImg h1 {
   font-size: 50px;
   font-weight: 600;
@@ -133,7 +128,7 @@
 .StepOneBox {
   height: auto;
   width: 100%;
-  background: url("../public/boxBG.png");
+  background: url("../boxBG.png");
   background-size: cover;
   border-radius: 50px;
   border: 1px solid rgba(255, 255, 255, 0.14);
@@ -153,7 +148,7 @@
 
 .StepOneBox2 {
   height: auto;
-  background: url("../public/boxBG.png");
+  background: url("../boxBG.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -176,7 +171,7 @@
 
 .StepOneBox3 {
   height: auto;
-  background: url("../public/boxBG.png");
+  background: url("../boxBG.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -263,7 +258,7 @@
 }
 
 .FooterText p {
-  font-size: 40px;
+  font-size: 48px;
   color: #fff;
   /* width: 55%; */
   max-width: 870px;
@@ -284,8 +279,8 @@
 .FooterText img {
   margin-top: 100px;
   margin-bottom: 50px;
-  width: 80px;
-  height: 80px;
+  width: 95px;
+  height: 95px;
 }
 
 .FooterArea a {
@@ -319,7 +314,7 @@
 /* store page bg  */
 
 .StoreBG {
-  background: url("../public/store.png");
+  background: url("../store.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -374,7 +369,7 @@
 }
 
 .PurchaseBox {
-  background: url("../public/pricingVpnBG.png");
+  background: url("../pricingVpnBG.png");
   background-repeat: no-repeat;
   background-size: cover;
   /* width: 80%; */
@@ -387,8 +382,7 @@
   border-bottom: none;
 }
 
-.PurchaseBox 
-.UptimeBox li {
+.PurchaseBox .UptimeBox li {
   list-style-type: none;
   margin-bottom: 10px;
 }
@@ -413,7 +407,7 @@
   font-weight: 500;
 }
 .SubsBox {
-  background: url("../public/subcs.png");
+  background: url("../subcs.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -451,7 +445,7 @@
   font-size: 80px;
 }
 .SetupBox {
-  background: url(../public/setupbox.png);
+  background: url(../setupbox.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 380px;
@@ -479,7 +473,7 @@
 }
 
 .UptimeBox {
-  background: url("../public/vpnBox.png");
+  background: url("../vpnBox.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -510,12 +504,18 @@
 .navbar {
   padding: 20px 0;
 }
+.navbar-expand .navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 .navbar-expand .navbar-nav a {
-  font-size: 24px;
+  font-size: 28px;
 }
 .navbar-expand .navbar-nav svg {
   height: 30px;
   width: 30px;
+  fill: #fff;
 }
 
 .pricing-list {
@@ -526,4 +526,13 @@
 
 .NavbarAreaS {
   padding-bottom: 50px;
+}
+
+.BoxArea img {
+  height: 215px;
+  margin: 0 auto !important;
+}
+
+.StepOneBox2 h4 {
+  margin-top: 30px;
 }
