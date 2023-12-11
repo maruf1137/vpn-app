@@ -19,11 +19,11 @@ function MyNav() {
                 Store
               </Link>
             </Nav.Link>
-            <Nav.Link className="text-light">
+            {/* <Nav.Link className="text-light">
               <Link to={"/dashboard"} className="text-light">
                 Dashboard
               </Link>
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link href="/login" className="text-light">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

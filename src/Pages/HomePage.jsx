@@ -21,7 +21,6 @@ function HomePage() {
   return (
     <>
       <div className="HomePageBG">
-        
         <div className="SideBarImg">
           <MyNav />
           <Hero />
@@ -162,14 +161,16 @@ function HomePage() {
 
             <div className="BoxArea">
               <div className="row gy-5">
-                <div className="col-12 col-lg-7">
-                  <div className="StepOneBox">
+                <div className="col-12 col-lg-8">
+                  <div className="StepOneBox h-100">
                     <img
                       src="./man.png"
                       alt=""
-                      className="img-fluid mx-auto d-block mt-4"
+                      className="img-fluid mx-auto d-block mt-5"
                     />
-                    <h4>Step into the shadows of online anonymity.</h4>
+                    <h4>
+                      Step into the shadows <br /> of online anonymity.
+                    </h4>
                     <p>
                       With our state-of-the-art service utilizing IKEv2
                       protocol. Your privacy is our priority, and IKEv2 stands
@@ -179,8 +180,8 @@ function HomePage() {
                     </p>
                   </div>
                 </div>
-                <div className="col-12 col-lg-5">
-                  <div className="StepOneBox2">
+                <div className="col-12 col-lg-4">
+                  <div className="StepOneBox2 h-100">
                     <img
                       src="./icon2.png"
                       alt=""
@@ -199,7 +200,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="col-12 col-lg-6">
-                  <div className="StepOneBox3">
+                  <div className="StepOneBox3 h-100">
                     <img
                       src="./icon3.png"
                       alt=""
@@ -223,7 +224,7 @@ function HomePage() {
                   </div>
                 </div>
                 <div className="col-12 col-lg-6">
-                  <div className="StepOneBox3">
+                  <div className="StepOneBox3 h-100">
                     <img
                       src="./icon4.png"
                       alt=""
@@ -330,15 +331,13 @@ function HomePage() {
 
           {/* Footer  */}
           <div className="MyFooterPadding">
-          <Footer />
+            <Footer />
           </div>
           {/* Footer  */}
 
           {/* <div className="DownBG"></div> */}
         </div>
-          <div className="paddingBottom">
-
-          </div>
+        <div className="paddingBottom"></div>
       </div>
     </>
   );

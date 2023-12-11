@@ -152,7 +152,7 @@ const Dashboard = ({ sidebar, setSidebar }) => {
               </div>
 
               <div className="bottom-area">
-                <button className="btn btn-primary">Generate IP</button>
+                <button className="btn btn-primary">Request</button>
               </div>
             </div>
           </div>
